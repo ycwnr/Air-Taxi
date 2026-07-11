@@ -1,0 +1,11 @@
+{
+  "vertiports": [
+    {"id": "karaj",    "code": "KRJ", "name": "Karaj Vertiport",             "lat": 35.824753, "lon": 50.954479},
+    {"id": "ika",      "code": "IKA", "name": "IKA Terminal (Parking area)",  "lat": 35.404460, "lon": 51.172240},
+    {"id": "thr",      "code": "THR", "name": "THR Terminal (Meraj St.)",     "lat": 35.695851, "lon": 51.329909},
+    {"id": "tajrish",  "code": "TAJ", "name": "Tajrish Vertiport",            "lat": 35.811778, "lon": 51.426142},
+    {"id": "chitgar",  "code": "CHT", "name": "Chitgar District",             "lat": 35.753334, "lon": 51.191529},
+    {"id": "pasdaran", "code": "PSD", "name": "Pasdaran (Golestan 9)",        "lat": 35.766800, "lon": 51.482615},
+    {"id": "qazvin",   "code": "QZV", "name": "Qazvin (Haft Sangar)",         "lat": 36.249959, "lon": 50.067511}
+  ]
+}

@@ -1,0 +1,335 @@
+
+AT-01 [4seat] — 20 legs, 338.1 km, 80 pax carried
+   t+  0.0min   CHT -> IKA  ( 38.8 km, 4 pax, SoC after: 79.5%)
+   t+ 12.2min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 52.7%)
+   t+ 26.7min   TAJ -> PSD  (  7.1 km, 4 pax, SoC after: 48.9%)
+   t+ 33.0min   PSD -> TAJ  (  7.1 km, 4 pax, SoC after: 45.1%)
+   t+ 39.4min   TAJ -> PSD  (  7.1 km, 4 pax, SoC after: 41.4%)
+   t+ 45.7min   PSD -> TAJ  (  7.1 km, 4 pax, SoC after: 37.6%)
+   t+ 52.0min   TAJ -> PSD  (  7.1 km, 4 pax, SoC after: 33.8%)
+   t+ 58.3min   PSD -> TAJ  (  7.1 km, 4 pax, SoC after: 30.1%)
+   t+ 64.7min   TAJ -> PSD  (  7.1 km, 4 pax, SoC after: 26.3%)
+   t+ 71.0min   PSD -> TAJ  (  7.1 km, 4 pax, SoC after: 22.5%)
+   t+ 77.3min   TAJ -> PSD  (  7.1 km, 4 pax, SoC after: 18.8%)
+   t+ 83.7min   PSD -> TAJ  (  7.1 km, 4 pax, SoC after: 15.0%)
+   t+ 90.0min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+103.3min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+112.5min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+125.8min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+134.9min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+148.2min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+157.4min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+170.7min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(11, 0.0), (12, 4.2), (14, 4.2), (16, 4.2), (18, 4.2)]
+
+AT-02 [4seat] — 20 legs, 543.3 km, 80 pax carried
+   t+  0.0min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 81.3%)
+   t+ 11.6min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 54.5%)
+   t+ 26.1min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 42.8%)
+   t+ 35.2min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 28.9%)
+   t+ 45.1min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 28.9%)
+   t+ 57.5min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 15.0%)
+   t+ 67.4min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 28.9%)
+   t+ 82.3min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 15.0%)
+   t+ 92.2min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 28.9%)
+   t+107.1min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 15.0%)
+   t+117.0min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 28.9%)
+   t+131.9min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 15.0%)
+   t+141.8min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 28.9%)
+   t+156.7min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 15.0%)
+   t+166.6min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 28.9%)
+   t+181.5min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 15.0%)
+   t+191.4min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 28.9%)
+   t+206.3min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 15.0%)
+   t+216.2min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 22.4%)
+   t+229.9min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(4, 2.5), (6, 5.0), (8, 5.0), (10, 5.0), (12, 5.0), (14, 5.0), (16, 5.0), (18, 3.8)]
+
+AT-03 [4seat] — 20 legs, 441.7 km, 80 pax carried
+   t+  0.0min   IKA -> CHT  ( 38.8 km, 4 pax, SoC after: 79.5%)
+   t+ 12.2min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 65.6%)
+   t+ 22.1min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 51.7%)
+   t+ 32.0min   CHT -> PSD  ( 26.3 km, 4 pax, SoC after: 37.8%)
+   t+ 41.9min   PSD -> CHT  ( 26.3 km, 4 pax, SoC after: 30.6%)
+   t+ 53.0min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 23.2%)
+   t+ 60.7min   THR -> TAJ  ( 15.5 km, 4 pax, SoC after: 15.0%)
+   t+ 68.6min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+ 81.9min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+ 91.0min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+104.3min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+113.5min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+126.8min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+135.9min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+149.2min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+158.4min   TAJ -> CHT  ( 22.1 km, 4 pax, SoC after: 26.7%)
+   t+171.7min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+180.8min   TAJ -> THR  ( 15.5 km, 4 pax, SoC after: 23.2%)
+   t+191.7min   THR -> TAJ  ( 15.5 km, 4 pax, SoC after: 15.0%)
+   t+199.6min   TAJ -> THR  ( 15.5 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(4, 1.2), (7, 4.2), (9, 4.2), (11, 4.2), (13, 4.2), (15, 4.2), (17, 3.0), (19, 1.5)]
+
+AT-04 [4seat] — 18 legs, 579.7 km, 72 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+   t+ 22.3min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 31.6%)
+   t+ 34.1min   THR -> TAJ  ( 15.5 km, 4 pax, SoC after: 23.4%)
+   t+ 42.0min   TAJ -> THR  ( 15.5 km, 4 pax, SoC after: 23.2%)
+   t+ 51.3min   THR -> TAJ  ( 15.5 km, 4 pax, SoC after: 15.0%)
+   t+ 59.2min   TAJ -> THR  ( 15.5 km, 4 pax, SoC after: 23.2%)
+   t+ 70.1min   THR -> TAJ  ( 15.5 km, 4 pax, SoC after: 15.0%)
+   t+ 78.0min   TAJ -> THR  ( 15.5 km, 4 pax, SoC after: 48.9%)
+   t+ 93.5min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 41.5%)
+   t+101.1min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 34.1%)
+   t+108.7min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 26.7%)
+   t+116.3min   CHT -> TAJ  ( 22.1 km, 4 pax, SoC after: 15.0%)
+   t+125.5min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+144.7min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+164.0min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+183.3min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+202.5min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+221.8min   IKA -> CHT  ( 38.8 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(3, 1.4), (5, 3.0), (7, 7.6), (12, 4.8), (13, 4.8), (14, 4.8), (15, 4.8), (16, 4.8), (17, 3.7)]
+
+AT-05 [4seat] — 17 legs, 601.8 km, 68 pax carried
+   t+  0.0min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 81.3%)
+   t+ 11.6min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 62.6%)
+   t+ 23.2min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 43.9%)
+   t+ 34.8min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 25.2%)
+   t+ 46.4min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+ 62.9min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+ 74.5min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+ 92.8min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+104.4min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+122.7min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+134.3min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+152.6min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+164.2min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+182.5min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+194.0min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+212.3min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+223.9min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(4, 4.9), (6, 6.7), (8, 6.7), (10, 6.7), (12, 6.7), (14, 6.7), (16, 3.4)]
+
+AT-06 [4seat] — 16 legs, 607.6 km, 60 pax carried
+   t+  0.0min   IKA -> CHT  ( 38.8 km, 4 pax, SoC after: 79.5%)
+   t+ 12.2min   CHT -> IKA  ( 38.8 km, 4 pax, SoC after: 59.0%)
+   t+ 24.5min   IKA -> CHT  ( 38.8 km, 4 pax, SoC after: 38.5%)
+   t+ 36.7min   CHT -> IKA  ( 38.8 km, 4 pax, SoC after: 18.0%)
+   t+ 48.9min   IKA -> CHT  ( 38.8 km, 2 pax, SoC after: 35.5%)
+   t+ 68.0min   CHT -> IKA  ( 38.8 km, 4 pax, SoC after: 15.0%)
+   t+ 80.2min   IKA -> CHT  ( 38.8 km, 4 pax, SoC after: 35.5%)
+   t+ 99.8min   CHT -> IKA  ( 38.8 km, 4 pax, SoC after: 15.0%)
+   t+112.1min   IKA -> CHT  ( 38.8 km, 4 pax, SoC after: 35.5%)
+   t+131.7min   CHT -> IKA  ( 38.8 km, 2 pax, SoC after: 15.0%)
+   t+144.0min   IKA -> CHT  ( 38.8 km, 4 pax, SoC after: 35.5%)
+   t+163.6min   CHT -> IKA  ( 38.8 km, 4 pax, SoC after: 15.0%)
+   t+175.8min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+194.1min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+205.7min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+224.0min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(4, 6.8), (6, 7.4), (8, 7.4), (10, 7.4), (12, 6.7), (14, 6.7)]
+
+AT-07 [4seat] — 15 legs, 531.0 km, 60 pax carried
+   t+  0.0min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 81.3%)
+   t+ 11.6min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 62.6%)
+   t+ 23.2min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 43.9%)
+   t+ 34.8min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+ 47.9min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+ 59.5min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+ 77.8min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+ 89.4min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+107.7min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+119.3min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+137.6min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+149.2min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+167.5min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   t+179.1min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 33.7%)
+   t+197.3min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(3, 1.5), (5, 6.7), (7, 6.7), (9, 6.7), (11, 6.7), (13, 6.7)]
+
+AT-08 [4seat] — 13 legs, 644.8 km, 52 pax carried
+   t+  0.0min   THR -> IKA  ( 35.4 km, 4 pax, SoC after: 81.3%)
+   t+ 11.6min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 54.5%)
+   t+ 26.1min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 27.7%)
+   t+ 40.5min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+ 57.5min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+ 76.7min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+ 96.0min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+115.3min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+134.5min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+153.8min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+173.1min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+192.3min   IKA -> TAJ  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   t+211.6min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(3, 2.5), (4, 4.8), (5, 4.8), (6, 4.8), (7, 4.8), (8, 4.8), (9, 4.8), (10, 4.8), (11, 4.8), (12, 4.8)]
+
+AT-09 [4seat] — 11 legs, 154.3 km, 44 pax carried
+   t+  0.0min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 92.6%)
+   t+  7.6min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 85.2%)
+   t+ 15.2min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 77.8%)
+   t+ 22.8min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 70.4%)
+   t+ 30.5min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 63.0%)
+   t+ 38.1min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 55.6%)
+   t+ 45.7min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 48.1%)
+   t+ 53.3min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 40.7%)
+   t+ 60.9min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 33.3%)
+   t+ 68.5min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 25.9%)
+   t+ 76.1min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 18.5%)
+
+AT-10 [4seat] — 6 legs, 128.3 km, 24 pax carried
+   t+  0.0min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 81.3%)
+   t+ 11.6min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 73.9%)
+   t+ 19.2min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 66.5%)
+   t+ 26.8min   THR -> CHT  ( 14.0 km, 4 pax, SoC after: 59.1%)
+   t+ 34.4min   CHT -> THR  ( 14.0 km, 4 pax, SoC after: 51.7%)
+   t+ 42.1min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 32.3%)
+
+AT-11 [4seat] — 5 legs, 196.4 km, 20 pax carried
+   t+  0.0min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 73.2%)
+   t+ 14.4min   IKA -> THR  ( 35.4 km, 4 pax, SoC after: 73.2%)
+   t+ 29.4min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 53.8%)
+   t+ 41.3min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 34.4%)
+   t+ 53.2min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(1, 3.4)]
+
+AT-12 [4seat] — 4 legs, 147.1 km, 16 pax carried
+   t+  0.0min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 80.6%)
+   t+ 11.9min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 61.2%)
+   t+ 23.7min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 41.8%)
+   t+ 35.6min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 22.3%)
+
+AT-13 [4seat] — 4 legs, 175.1 km, 16 pax carried
+   t+  0.0min   TAJ -> IKA  ( 50.8 km, 4 pax, SoC after: 73.2%)
+   t+ 14.5min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 53.8%)
+   t+ 30.2min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 34.4%)
+   t+ 42.1min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(1, 1.3)]
+
+AT-14 [4seat] — 4 legs, 202.8 km, 16 pax carried
+   t+  0.0min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 73.2%)
+   t+ 14.4min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 46.5%)
+   t+ 28.9min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 41.8%)
+   t+ 47.3min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(2, 4.0)]
+
+AT-15 [4seat] — 4 legs, 202.8 km, 16 pax carried
+   t+  0.0min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 73.2%)
+   t+ 14.4min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 46.5%)
+   t+ 28.9min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 41.8%)
+   t+ 47.3min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(2, 4.0)]
+
+AT-16 [4seat] — 4 legs, 147.1 km, 16 pax carried
+   t+  0.0min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 80.6%)
+   t+ 11.9min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 61.2%)
+   t+ 23.7min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 41.8%)
+   t+ 35.6min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 22.3%)
+
+AT-17 [4seat] — 4 legs, 202.8 km, 16 pax carried
+   t+  0.0min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 73.2%)
+   t+ 14.4min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 46.5%)
+   t+ 28.9min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 41.8%)
+   t+ 47.3min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 15.0%)
+   charge stops: [(2, 4.0)]
+
+AT-18 [4seat] — 3 legs, 138.2 km, 12 pax carried
+   t+  0.0min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 80.6%)
+   t+ 11.9min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 53.8%)
+   t+ 26.3min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 27.0%)
+
+AT-19 [4seat] — 2 legs, 129.5 km, 8 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+   t+ 22.3min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 31.6%)
+
+AT-20 [4seat] — 2 legs, 143.4 km, 8 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+   t+ 22.3min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 24.3%)
+
+AT-21 [4seat] — 2 legs, 143.4 km, 8 pax carried
+   t+  0.0min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 73.2%)
+   t+ 14.4min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 24.3%)
+
+AT-22 [4seat] — 2 legs, 129.5 km, 8 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+   t+ 22.3min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 31.6%)
+
+AT-23 [4seat] — 2 legs, 129.5 km, 8 pax carried
+   t+  0.0min   THR -> KRJ  ( 36.8 km, 4 pax, SoC after: 80.6%)
+   t+ 11.9min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 31.6%)
+
+AT-24 [4seat] — 2 legs, 129.5 km, 8 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+   t+ 22.3min   KRJ -> THR  ( 36.8 km, 4 pax, SoC after: 31.6%)
+
+AT-25 [4seat] — 2 legs, 143.4 km, 8 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+   t+ 22.3min   KRJ -> IKA  ( 50.7 km, 4 pax, SoC after: 24.3%)
+
+AT-26 [4seat] — 2 legs, 143.4 km, 8 pax carried
+   t+  0.0min   IKA -> KRJ  ( 50.7 km, 4 pax, SoC after: 73.2%)
+   t+ 14.4min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 24.3%)
+
+AT-27 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-28 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-29 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-30 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-31 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-32 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-33 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-34 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-35 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-36 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-37 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-38 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-39 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-40 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-41 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-42 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-43 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-44 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-45 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   KRJ -> QZV  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-46 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-47 [4seat] — 1 legs, 92.7 km, 4 pax carried
+   t+  0.0min   QZV -> KRJ  ( 92.7 km, 4 pax, SoC after: 51.0%)
+
+AT-48 [4seat] — 1 legs, 38.8 km, 4 pax carried
+   t+  0.0min   CHT -> IKA  ( 38.8 km, 4 pax, SoC after: 79.5%)

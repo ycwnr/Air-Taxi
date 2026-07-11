@@ -1,0 +1,107 @@
+{
+  "vertiports": {
+    "karaj": {
+      "code": "KRJ",
+      "name": "Karaj Vertiport",
+      "lat": 35.824753,
+      "lon": 50.954479
+    },
+    "ika": {
+      "code": "IKA",
+      "name": "IKA Terminal (Parking area)",
+      "lat": 35.40446,
+      "lon": 51.17224
+    },
+    "thr": {
+      "code": "THR",
+      "name": "THR Terminal (Meraj St.)",
+      "lat": 35.695851,
+      "lon": 51.329909
+    },
+    "tajrish": {
+      "code": "TAJ",
+      "name": "Tajrish Vertiport",
+      "lat": 35.811778,
+      "lon": 51.426142
+    },
+    "chitgar": {
+      "code": "CHT",
+      "name": "Chitgar District",
+      "lat": 35.753334,
+      "lon": 51.191529
+    },
+    "pasdaran": {
+      "code": "PSD",
+      "name": "Pasdaran (Golestan 9)",
+      "lat": 35.7668,
+      "lon": 51.482615
+    },
+    "qazvin": {
+      "code": "QZV",
+      "name": "Qazvin (Haft Sangar)",
+      "lat": 36.249959,
+      "lon": 50.067511
+    }
+  },
+  "aircraft_spec": {
+    "class": "4seat",
+    "label": "4-Seat class (Joby Aviation S4-derived)",
+    "seat_capacity": 4,
+    "cruise_speed_kmh": 322.0,
+    "range_km": 161.0,
+    "battery_capacity_kwh": 165.0,
+    "purchase_price_usd": 1300000.0,
+    "operating_cost_per_hour_usd": 650.0,
+    "cask_usd_per_pax_km": 7.05
+  },
+  "demand_summary": {
+    "n_flights": 226,
+    "total_pax": 900,
+    "total_pax_km": 36086.2,
+    "total_distance_km": 9060.38,
+    "total_ask": 36241.52
+  },
+  "optimal_solution": {
+    "charging_stations": [
+      "ika",
+      "pasdaran",
+      "tajrish"
+    ],
+    "charging_station_names": [
+      "Tajrish Vertiport",
+      "IKA Terminal (Parking area)",
+      "Pasdaran (Golestan 9)"
+    ],
+    "fleet_size": 48,
+    "n_uncovered_flights": 0
+  },
+  "ga_validation": {
+    "ga_fitness": 48,
+    "ga_fleet_size": 48,
+    "ga_stations": [
+      "ika",
+      "pasdaran",
+      "tajrish"
+    ],
+    "brute_force_optimal_fitness": 48,
+    "brute_force_optimal_fleet_size": 48,
+    "brute_force_optimal_stations": [
+      "ika",
+      "pasdaran",
+      "tajrish"
+    ],
+    "fitness_gap": 0,
+    "matches_global_optimum": true,
+    "same_station_set_as_optimum": true
+  },
+  "economics": {
+    "capex_usd": 62400000.0,
+    "opex_per_year_usd": 1430815209.5999997,
+    "total_cost_over_horizon_usd": 2924030419.1999993,
+    "annual_pax_km": 202082719.99999997,
+    "total_pax_km_over_horizon": 404165439.99999994,
+    "breakeven_price_usd_per_pax_km": 7.234736397055621,
+    "horizon_years": 2
+  },
+  "runtime_sec": 59.48
+}
