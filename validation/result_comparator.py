@@ -8,15 +8,12 @@ import itertools
 from optimization import fitness as fitness_mod
 
 
-def brute_force_optimum(ordered_vertiport_ids, required_flights, spec, pool_size=None):
-    """Exhaustively evaluates every 3-of-7 station placement. Feasible because
-    C(7,3) = 35 is small; this is the ground-truth baseline for validating
-    the GA/ACO/PSO metaheuristics without needing external reference code."""
+def brute_force_optimum(ordered_vertiport_ids, required_flights, specs, dist_matrix, pool_size=None):
     n = len(ordered_vertiport_ids)
     k = 3
     results = []
     for combo in itertools.combinations(range(n), k):
-        r = fitness_mod.evaluate(combo, ordered_vertiport_ids, required_flights, spec,
+        r = fitness_mod.evaluate(combo, ordered_vertiport_ids, required_flights, specs, dist_matrix,
                                   pool_size=pool_size)
         r = dict(r)
         r["chromosome"] = combo

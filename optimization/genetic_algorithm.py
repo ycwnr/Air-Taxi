@@ -19,10 +19,10 @@ from optimization import fitness as fitness_mod
 
 
 class GAOptimizer(MetaheuristicOptimizer):
-    def __init__(self, ordered_vertiport_ids, required_flights, spec,
-                 population_size=None, generations=None, crossover_rate=None,
-                 mutation_rate=None, elitism=None, seed=None, pool_size=None):
-        super().__init__(ordered_vertiport_ids, required_flights, spec)
+    def __init__(self, ordered_vertiport_ids, required_flights, specs, dist_matrix,
+                population_size=None, generations=None, crossover_rate=None,
+                mutation_rate=None, elitism=None, seed=None, pool_size=None):
+        super().__init__(ordered_vertiport_ids, required_flights, specs, dist_matrix)
         self.n_stations_total = len(ordered_vertiport_ids)
         self.k = config.N_CHARGE_STATIONS
         self.population_size = population_size or config.GA_POPULATION_SIZE
@@ -48,8 +48,8 @@ class GAOptimizer(MetaheuristicOptimizer):
         for chrom in population:
             result = fitness_mod.evaluate(
                 chrom, self.ordered_vertiport_ids, self.required_flights,
-                self.spec, pool_size=self.pool_size
-            )
+                self.specs, self.dist_matrix, pool_size=self.pool_size
+                )
             scored.append((chrom, result))
         scored.sort(key=lambda cr: cr[1]["fitness"])
         return scored

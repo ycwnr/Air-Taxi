@@ -52,3 +52,47 @@ def plot_fleet_gantt(schedule, path):
     fig.tight_layout()
     fig.savefig(path, dpi=150)
     plt.close(fig)
+
+def plot_soc_repeated_cycles(selected_cycles, path, n_show=3, n_repeats=3):
+    """
+    Picks n_show duty cycles and plots each one repeated n_repeats times back-to-back,
+    to visually confirm the charging profile is periodic (SoC returns to start_soc
+    at the end of every repetition, per DutyCycle.is_periodic).
+    """
+    fig, axes = plt.subplots(n_show, 1, figsize=(9, 3 * n_show), sharex=False)
+    if n_show == 1:
+        axes = [axes]
+
+    # prioritize cycles that actually have charge events (more interesting to inspect)
+    candidates = sorted(selected_cycles, key=lambda c: -len(c.charge_events))[:n_show]
+
+    for ax, cycle in zip(axes, candidates):
+        if not cycle.soc_trace:
+            continue
+        n_legs = len(cycle.flights)
+        full_trace = []      # (x, y) points across repeats
+        x_offset = 0
+
+        for rep in range(n_repeats):
+            xs = [x_offset + i for i in range(1, n_legs + 1)]
+            ys = [s * 100 for s in cycle.soc_trace]
+            full_trace.extend(zip(xs, ys))
+            x_offset += n_legs
+            # mark boundary between repetitions
+            ax.axvline(x_offset, color="gray", linestyle=":", alpha=0.5)
+
+        xs_all, ys_all = zip(*full_trace)
+        ax.plot(xs_all, ys_all, marker="o", markersize=3, color="#00B4FF")
+        ax.axhline(15, color="red", linestyle="--", linewidth=1, label="15% SoC floor")
+
+        status = "PERIODIC ✓" if cycle.is_periodic else "NOT periodic ✗"
+        ax.set_title(f"cycle#{cycle.cycle_id} [{cycle.aircraft_class}] — {n_repeats} repetitions — {status}",
+                     fontsize=9)
+        ax.set_ylabel("SoC (%)")
+        ax.legend(fontsize=7)
+        ax.grid(alpha=0.3)
+
+    axes[-1].set_xlabel("Leg number (cumulative across repeated cycles)")
+    fig.tight_layout()
+    fig.savefig(path, dpi=150)
+    plt.close(fig)

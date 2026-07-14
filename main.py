@@ -14,7 +14,7 @@ from optimization.genetic_algorithm import GAOptimizer
 from optimization import fitness as fitness_mod
 from validation.result_comparator import brute_force_optimum, compare
 from reporting.schedule_report import build_schedule, format_schedule_text
-from reporting.visualizer import plot_convergence, plot_soc_curves, plot_fleet_gantt
+from reporting.visualizer import plot_convergence, plot_soc_curves, plot_fleet_gantt, plot_soc_repeated_cycles
 from reporting.exporter import export_json, export_schedule_csv
 from economics.cost_model import CostModel
 from economics.breakeven_analysis import BreakEvenAnalyzer
@@ -43,7 +43,7 @@ def main():
               f"{primary_spec.battery_capacity_kwh} kWh)")
     
     # 5. Required flights from demand
-    required_flights = build_required_flights(order, demand, dist_matrix, primary_spec)
+    required_flights = build_required_flights(order, demand, dist_matrix, specs)
     demand_summary = summarize(required_flights, seat_capacity=primary_spec.seat_capacity)
     log.info(f"Required flights this hour: {demand_summary['n_flights']}  "
               f"total pax: {demand_summary['total_pax']}  "
@@ -52,7 +52,7 @@ def main():
     # 6-7. Metaheuristic optimization (GA) over charging-station placement
     log.info(f"Running GA over {config.GA_GENERATIONS} generations, "
               f"population {config.GA_POPULATION_SIZE}...")
-    ga = GAOptimizer(order, required_flights, primary_spec)
+    ga = GAOptimizer(order, required_flights, specs, dist_matrix)
     ga_best = ga.run(verbose=False)
     log.info(f"GA best: fleet={ga_best['fleet_size']}  "
               f"uncovered={ga_best['n_uncovered']}  "
@@ -64,7 +64,7 @@ def main():
     # station sets already evaluated during the GA phase are reused as-is,
     # so this validation pass only pays the cost of the combos the GA didn't
     # already visit.
-    bf_results = brute_force_optimum(order, required_flights, primary_spec)
+    bf_results = brute_force_optimum(order, required_flights, specs, dist_matrix)
     comparison = compare(ga_best, bf_results)
     log.info(f"Validation: GA {'MATCHES' if comparison['matches_global_optimum'] else 'DOES NOT MATCH'} "
               f"global optimum (gap={comparison['fitness_gap']}). "
@@ -118,6 +118,8 @@ def main():
     export_schedule_csv(schedule, "schedule.csv")
     plot_convergence(ga.history, config.OUTPUT_DIR / "ga_convergence.png")
     plot_soc_curves(final["selected_cycles"], config.OUTPUT_DIR / "soc_curves.png")
+    plot_soc_repeated_cycles(final["selected_cycles"], config.OUTPUT_DIR / "soc_repeated.png",
+                          n_show=3, n_repeats=3)
     plot_fleet_gantt(schedule, config.OUTPUT_DIR / "fleet_gantt.png")
 
     with open(config.OUTPUT_DIR / "schedule.txt", "w", encoding="utf-8") as f:
@@ -133,6 +135,20 @@ def main():
     log.info(f"Outputs written to {config.OUTPUT_DIR}")
 
     return payload, schedule
+
+
+
+import csv
+from collections import Counter
+
+seen = Counter()
+with open("output/schedule.csv") as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        key = (row["from"], row["to"])  # یا اگر flight_id در CSV بود از اون استفاده کنید
+        seen[key] += 1
+
+# بعد این رو با required_flights مقایسه کنید که چیزی جا نمونده یا تکراری نشده
 
 
 if __name__ == "__main__":

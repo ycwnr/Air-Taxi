@@ -33,17 +33,9 @@ class CostModel:
         return hourly_opex * self.annual_operating_hours()
 
     def annual_pax_km(self, hourly_pax_km: float) -> float:
-        return hourly_pax_km * self.annual_operating_hours()
-
-    def opex_usd_per_year(self) -> float:
-        """OPEX = CASK ($/pax-km, used here as $/available-seat-km per the
-        assignment's CASK definition) x annual ASK flown by the fleet."""
-        return self.spec.cask_usd_per_pax_km * self.annual_ask()
-
-    def total_cost_usd(self, years: float) -> float:
-        return self.capex_usd() + self.opex_usd_per_year() * years
-
-    def annual_pax_km(self, hourly_pax_km: float) -> float:
         """Scale one representative hour of ACTUAL passenger-km (revenue
         basis) up to a full operating year."""
         return hourly_pax_km * self.annual_operating_hours()
+
+    def total_cost_usd(self, years: float) -> float:
+        return self.capex_usd() + self.opex_usd_per_year() * years

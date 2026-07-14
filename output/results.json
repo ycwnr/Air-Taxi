@@ -63,45 +63,45 @@
   },
   "optimal_solution": {
     "charging_stations": [
-      "ika",
       "pasdaran",
-      "tajrish"
+      "tajrish",
+      "thr"
     ],
     "charging_station_names": [
+      "THR Terminal (Meraj St.)",
       "Tajrish Vertiport",
-      "IKA Terminal (Parking area)",
       "Pasdaran (Golestan 9)"
     ],
-    "fleet_size": 48,
+    "fleet_size": 57,
     "n_uncovered_flights": 0
   },
   "ga_validation": {
-    "ga_fitness": 48,
-    "ga_fleet_size": 48,
+    "ga_fitness": 57,
+    "ga_fleet_size": 57,
     "ga_stations": [
-      "ika",
       "pasdaran",
-      "tajrish"
+      "tajrish",
+      "thr"
     ],
-    "brute_force_optimal_fitness": 48,
-    "brute_force_optimal_fleet_size": 48,
+    "brute_force_optimal_fitness": 57,
+    "brute_force_optimal_fleet_size": 57,
     "brute_force_optimal_stations": [
-      "ika",
       "pasdaran",
-      "tajrish"
+      "tajrish",
+      "thr"
     ],
     "fitness_gap": 0,
     "matches_global_optimum": true,
     "same_station_set_as_optimum": true
   },
   "economics": {
-    "capex_usd": 62400000.0,
-    "opex_per_year_usd": 1430815209.5999997,
-    "total_cost_over_horizon_usd": 2924030419.1999993,
+    "capex_usd": 74100000.0,
+    "opex_per_year_usd": 1575108292.799998,
+    "total_cost_over_horizon_usd": 3224316585.599996,
     "annual_pax_km": 202082719.99999997,
     "total_pax_km_over_horizon": 404165439.99999994,
-    "breakeven_price_usd_per_pax_km": 7.234736397055621,
+    "breakeven_price_usd_per_pax_km": 7.977714733847596,
     "horizon_years": 2
   },
-  "runtime_sec": 59.48
+  "runtime_sec": 63.56
 }

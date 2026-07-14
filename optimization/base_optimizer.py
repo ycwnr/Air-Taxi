@@ -6,11 +6,12 @@ from abc import ABC, abstractmethod
 
 
 class MetaheuristicOptimizer(ABC):
-    def __init__(self, ordered_vertiport_ids, required_flights, spec, **kwargs):
+    def __init__(self, ordered_vertiport_ids, required_flights, specs, dist_matrix, **kwargs):
         self.ordered_vertiport_ids = ordered_vertiport_ids
         self.required_flights = required_flights
-        self.spec = spec
-        self.history = []  # list of best fitness per generation/iteration
+        self.specs = specs
+        self.dist_matrix = dist_matrix
+        self.history = []
 
     @abstractmethod
     def initialize_population(self):

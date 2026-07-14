@@ -126,3 +126,4 @@ def summarize(flights: list, seat_capacity: int = None) -> dict:
     if seat_capacity is not None:
         out["total_ask"] = total_km * seat_capacity
     return out
+

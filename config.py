@@ -109,3 +109,4 @@ N_PARTITION_RESTARTS = 40               # random-order full-partition constructi
 # Economics
 # --------------------------------------------------------------------------
 DISCOUNT_RATE_ANNUAL = 0.0   # simple (non-discounted) break-even per assignment wording
+REQUIRE_PERIODIC_SOC = True     # duty cycles must return to start-of-cycle SoC to be repeatable

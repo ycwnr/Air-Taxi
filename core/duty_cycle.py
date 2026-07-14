@@ -22,8 +22,6 @@ from typing import List
 import itertools
 
 _counter = itertools.count(1)
-
-
 @dataclass
 class DutyCycle:
     flights: List
@@ -31,7 +29,9 @@ class DutyCycle:
     soc_trace: List[float] = field(default_factory=list)
     charge_events: List[tuple] = field(default_factory=list)
     is_feasible: bool = False
-    is_closed_loop: bool = False   # FIX 1: True once a return-to-origin leg was appended/confirmed
+    is_closed_loop: bool = False
+    start_soc: float = 1.0
+    end_soc: float = None
     cycle_id: int = field(default_factory=lambda: next(_counter))
 
     @property
@@ -44,29 +44,16 @@ class DutyCycle:
 
     @property
     def flight_ids(self):
-        """All flight ids in this cycle, INCLUDING synthetic reposition legs."""
         return {f.flight_id for f in self.flights}
 
     @property
     def required_flight_ids(self):
-        """FIX 1: Only the demand-covering legs — this is what the exact-cover
-        solver must match against, since reposition legs are not part of the
-        required-flight universe and would otherwise never subset-match."""
         return {f.flight_id for f in self.flights if not f.is_reposition}
 
-    @property
-    def is_closed_loop(self) -> bool:
-        """True if the aircraft lands back at the vertiport it started from,
-        i.e. the cycle can be flown again immediately without repositioning."""
-        if not self.flights:
-            return False
-        return self.flights[0].origin == self.flights[-1].destination
+    # <-- is_closed_loop property REMOVED from here -->
 
     @property
     def is_periodic(self) -> bool:
-        """True if the end-of-cycle SoC (after any final top-up charge) has
-        been restored to the cycle's starting SoC, so the SAME charge profile
-        repeats on every future repetition of this cycle."""
         if self.end_soc is None:
             return False
         return abs(self.end_soc - self.start_soc) <= 1e-6
