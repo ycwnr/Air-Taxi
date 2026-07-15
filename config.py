@@ -52,10 +52,10 @@ OPERATING_DAYS_PER_YEAR = 350   # assumed annual operating days (maintenance dow
 # --------------------------------------------------------------------------
 EVTOL_SPECS = {
     "2seat": {
-        "label": "2-Seat class (Volocopter VoloCity-derived)",
+        "label": "2-Seat class (Ehang VT35)",
         "seat_capacity": 2,
-        "cruise_speed_kmh": 100.0,
-        "range_km": 35.0,                 # manufacturer-stated operational range
+        "cruise_speed_kmh": 215.0,
+        "range_km": 200,                 # manufacturer-stated operational range
         "battery_capacity_kwh": 45.0,     # ESTIMATED (not publicly disclosed)
         "charge_time_min_full": 40.0,     # ESTIMATED fast-charge/swap time, full pack
         "purchase_price_usd": 450_000.0,  # ESTIMATED target unit price
